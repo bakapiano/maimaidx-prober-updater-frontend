@@ -49,6 +49,7 @@
             <n-button-group vertical>
               <n-button
                 v-for="item in platformList"
+                v-bind:key="item.title"
                 @click="showTutroial(item.title)"
               >
                 <template #icon>
