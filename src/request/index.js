@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const HOST = "https://maimai.bakapiano.com"
+const HOST = "https://backend.maimai.bakapiano.com"
 
 const service = axios.create({
     baseURL: HOST,
@@ -10,6 +10,5 @@ const service = axios.create({
 service.interceptors.request.use(config => {
     return config
 })
-
 
 export default service
