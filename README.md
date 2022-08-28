@@ -1,4 +1,4 @@
-# bilibili task scheduler 前端
+# maimaidx prober updater frontend 前端
 
 使用 Vite & NaiveUI 构建
 
@@ -13,9 +13,5 @@ npm run dev
 ## build
 
 ```
-npx vite build
+npx run build
 ```
-
-## demo
-
-[https://bilibili-task-scheduler-frontend.vercel.app/#/](https://bilibili-task-scheduler-frontend.vercel.app/#/)
